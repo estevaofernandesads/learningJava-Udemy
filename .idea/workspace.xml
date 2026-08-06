@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="852a8b16-11f6-4816-8a4e-64434d9ba430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E001_E010/E006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E001_E010/E007.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     "Application.E004.executor": "Run",
     "Application.E005.executor": "Run",
     "Application.E006.executor": "Run",
+    "Application.E007.executor": "Run",
     "Application.L002.executor": "Run",
     "Application.L003.executor": "Run",
     "Application.L004.executor": "Run",

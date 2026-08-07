@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="852a8b16-11f6-4816-8a4e-64434d9ba430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E011_E020/E013.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E011_E020/E014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E011_E020/E015.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E011_E020/E012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E011_E020/E012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,8 @@
     "Application.E011.executor": "Run",
     "Application.E012.executor": "Run",
     "Application.E013.executor": "Run",
+    "Application.E014.executor": "Run",
+    "Application.E015.executor": "Run",
     "Application.L002.executor": "Run",
     "Application.L003.executor": "Run",
     "Application.L004.executor": "Run",

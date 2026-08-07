@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lessons/L011_L020/L014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lessons/L011_L020/L015.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
     "Application.L012.executor": "Run",
     "Application.L013.executor": "Run",
     "Application.L014.executor": "Debug",
+    "Application.L015.executor": "Run",
     "git-widget-placeholder": "main"
   }
 }]]></component>

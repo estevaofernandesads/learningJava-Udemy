@@ -12,16 +12,13 @@ public class E012 {
         horaI = sc.nextInt();
         horaF = sc.nextInt();
 
-        horaJ = horaF - horaI;
-
-        if (horaJ > 0){
-            System.out.printf("O JOGO DUROU %d HORA(S)", horaJ);
-        } else if (horaJ < 0) {
-            horaJ = 24 + horaJ;
-            System.out.printf("O JOGO DUROU %d HORA(S)", horaJ);
+        if (horaF > horaI){
+            horaJ = horaF - horaI;
         } else {
-            System.out.println("O JOGO DUROU 24 HORA(S)");
+            horaJ = 24 + horaF - horaI;
         }
+
+        System.out.printf("O JOGO DUROU %d HORA(S)", horaJ);
 
         sc.close();
     }

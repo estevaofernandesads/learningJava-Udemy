@@ -12,7 +12,7 @@ public class L015 {
         num = sc.nextInt();
         sum = 0;
 
-        while (num != 0){
+        while (num != 0){         // CONDITION TRUE, EXECUTE COMMAND LINE, USUALLY USE THIS WHEN WE DON'T KNOW THE REPETITIONS NUMBER
             sum += num;
             num = sc.nextInt();
         }

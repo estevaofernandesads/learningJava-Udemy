@@ -12,7 +12,7 @@ public class L016 {
         int num,soma = 0;
 
         System.out.println("Informe os números que deseja somar: ");
-        for (int i = 0;i < quant; i++){
+        for (int i = 0;i < quant; i++){  // IF CONDITION TRUE DO THE COMMAND LINE, IF FALSE, SKIP
             num = sc.nextInt();
             soma += num;
         }

@@ -6,7 +6,33 @@ public class Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        
+        Triangle x, y;
+
+        x = new Triangle();
+        y = new Triangle();
+
+        System.out.println("Informe os lados do triangulo 1: ");
+        x.a = sc.nextDouble();
+        x.b = sc.nextDouble();
+        x.c = sc.nextDouble();
+        System.out.println("Informe os lados do triangulo 2: ");
+        y.a = sc.nextDouble();
+        y.b = sc.nextDouble();
+        y.c = sc.nextDouble();
+
+        double area = (x.a + x.b + x.c)/2;
+        double area1 = Math.sqrt(area * (area - x.a) * (area - x.b) * (area - x.c));
+        area = (y.a + y.b + y.c)/2;
+        double area2 = Math.sqrt(area * (area - y.a) * (area - y.b) * (area - y.c));
+
+        System.out.printf("A area do Triangulo X: %.4f%n", area1);
+        System.out.printf("A area do Triangulo Y: %.4f%n", area2);
+
+        if (area1 > area2){
+            System.out.println("A maior area é X");
+        } else {
+            System.out.println("A maior area é Y");
+        }
 
         sc.close();
     }

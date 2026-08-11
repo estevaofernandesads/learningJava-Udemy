@@ -1,6 +1,5 @@
 package org.example.Lessons.L011_L020;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class L018 {

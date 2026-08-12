@@ -16,15 +16,19 @@ public class Program {
         System.out.println("Informe a quantidade do produto: ");
         p1.quantity = sc.nextInt();
 
-        System.out.println(p1.toString());
+        System.out.printf("Dados do produto: %s%n", p1);
+        System.out.println();
 
-        System.out.println("Produtos adicionados no stock: ");
-        p1.addProducts(p1.quantity);
-        System.out.println(p1.toString());
+        System.out.println("Produtos adicionados no estoque: ");
+        int quantity = sc.nextInt();
+        p1.addProducts(quantity);
+        System.out.printf("Dados atualizados: %s%n", p1);
+        System.out.println();
 
-        System.out.println("Produtos removidos do stock: ");
-        p1.removeProducts(p1.quantity);
-        System.out.println(p1.toString());
+        System.out.println("Produtos removidos do estoque: ");
+        quantity = sc.nextInt();
+        p1.removeProducts(quantity);
+        System.out.printf("Dados atualizados: %s%n", p1);
 
         sc.close();
     }

@@ -7,7 +7,6 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         Triangle x, y;
-
         x = new Triangle();
         y = new Triangle();
 

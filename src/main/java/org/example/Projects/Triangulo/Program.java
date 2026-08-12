@@ -20,10 +20,8 @@ public class Program {
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
-        double area = (x.a + x.b + x.c)/2;
-        double area1 = Math.sqrt(area * (area - x.a) * (area - x.b) * (area - x.c));
-        area = (y.a + y.b + y.c)/2;
-        double area2 = Math.sqrt(area * (area - y.a) * (area - y.b) * (area - y.c));
+        double area1 = x.area();
+        double area2 = y.area();
 
         System.out.printf("A area do Triangulo X: %.4f%n", area1);
         System.out.printf("A area do Triangulo Y: %.4f%n", area2);

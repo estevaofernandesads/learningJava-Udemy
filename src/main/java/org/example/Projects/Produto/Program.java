@@ -16,10 +16,15 @@ public class Program {
         System.out.println("Informe a quantidade do produto: ");
         p1.quantity = sc.nextInt();
 
-        System.out.println(p1.name + p1.price + p1.quantity);
+        System.out.println(p1.toString());
 
+        System.out.println("Produtos adicionados no stock: ");
+        p1.addProducts(p1.quantity);
+        System.out.println(p1.toString());
 
-
+        System.out.println("Produtos removidos do stock: ");
+        p1.removeProducts(p1.quantity);
+        System.out.println(p1.toString());
 
         sc.close();
     }

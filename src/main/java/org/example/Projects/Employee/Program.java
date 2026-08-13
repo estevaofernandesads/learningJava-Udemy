@@ -9,14 +9,16 @@ public class Program {
 
         System.out.println("Nome: ");
         emp.name = sc.nextLine();
-        System.out.println("Salario solido: ");
+        System.out.println("Salario bruto: ");
         emp.grossSalary = sc.nextDouble();
         System.out.println("Taxa: ");
         emp.tax = sc.nextDouble();
 
         System.out.println();
-        System.out.print(emp);
+        System.out.print(emp);   // PRINT THE OBJECT
         System.out.println();
+
+
         System.out.print("Qual a porcentagem para aumentar o salario? ");
         double percentage = sc.nextDouble();
         emp.increaseSalary(percentage);

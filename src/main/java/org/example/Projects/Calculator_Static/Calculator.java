@@ -1,6 +1,6 @@
-package org.example.Projects.Produdo_estatico;
+package org.example.Projects.Calculator_Static;
 
-public class Product {
+public class Calculator {
     public static final double PI = 3.14159;
 
     public static double circumference(double raio){

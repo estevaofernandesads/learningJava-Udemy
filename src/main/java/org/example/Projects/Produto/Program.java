@@ -1,4 +1,4 @@
-package org.example.Projects.Produto_object;
+package org.example.Projects.Produto;
 
 import java.util.Scanner;
 

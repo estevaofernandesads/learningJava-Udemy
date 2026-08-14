@@ -1,4 +1,4 @@
-package org.example.Projects.Calculator;
+package org.example.Projects.Calculator_Object;
 
 public class Calculator {
 

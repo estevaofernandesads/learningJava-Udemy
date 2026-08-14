@@ -1,4 +1,4 @@
-package org.example.Projects.Produdo_estatico;
+package org.example.Projects.Calculator_Static;
 
 import java.util.Scanner;
 
@@ -9,12 +9,12 @@ public class Program {
         System.out.println("Informe o valor do raio: ");
         double raio = sc.nextDouble();
 
-        double cir = Product.circumference(raio);
-        double vol = Product.volume(raio);
+        double cir = Calculator.circumference(raio);
+        double vol = Calculator.volume(raio);
 
         System.out.printf("Circumferencia: %.2f%n", cir);
         System.out.printf("Volume: %.2f%n", vol);
-        System.out.printf("Valor de PI: %.2f%n", Product.PI);
+        System.out.printf("Valor de PI: %.2f%n", Calculator.PI);
 
         sc.close();
     }

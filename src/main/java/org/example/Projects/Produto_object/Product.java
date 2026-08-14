@@ -1,4 +1,4 @@
-package org.example.Projects.Produto;
+package org.example.Projects.Produto_object;
 
 public class Product {
 

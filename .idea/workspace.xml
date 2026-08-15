@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Projects/Rectangle/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Projects/Rectangle/Rectangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

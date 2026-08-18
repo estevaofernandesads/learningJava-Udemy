@@ -6,7 +6,8 @@ public class Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        ProductConstruct p = new ProductConstruct();  // CONSTRUCTOR DEFAULT
+        ProductConstruct p = new
+                 ProductConstruct();  // CONSTRUCTOR DEFAULT
 
         System.out.println("Informe os dados do produto: ");
         System.out.println("Informe o nome do produto: ");

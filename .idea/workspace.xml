@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="" />
+    <list default="true" id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lessons/L021_L030/L025.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lessons/L021_L030/L026.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,33 +37,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.E016.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E017.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E018.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E019.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E020.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E021.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E022.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E023.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E024.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E025.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E026.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L011.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L012.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L013.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L014.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.L015.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L016.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L017.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L018.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.E016.executor": "Run",
+    "Application.E017.executor": "Run",
+    "Application.E018.executor": "Run",
+    "Application.E019.executor": "Run",
+    "Application.E020.executor": "Run",
+    "Application.E021.executor": "Run",
+    "Application.E022.executor": "Run",
+    "Application.E023.executor": "Run",
+    "Application.E024.executor": "Run",
+    "Application.E025.executor": "Run",
+    "Application.E026.executor": "Run",
+    "Application.L011.executor": "Run",
+    "Application.L012.executor": "Run",
+    "Application.L013.executor": "Run",
+    "Application.L014.executor": "Debug",
+    "Application.L015.executor": "Run",
+    "Application.L016.executor": "Run",
+    "Application.L017.executor": "Run",
+    "Application.L018.executor": "Run",
+    "Application.L025.executor": "Run",
+    "Application.Program.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="" />

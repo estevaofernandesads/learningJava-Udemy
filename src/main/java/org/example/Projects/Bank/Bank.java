@@ -33,7 +33,6 @@ public class Bank {
         return balance;
     }
 
-
     public void deposit(double amount){
         balance += amount;
     }

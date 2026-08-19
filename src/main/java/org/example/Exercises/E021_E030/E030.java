@@ -6,7 +6,6 @@ public class E030 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-
         System.out.print("Quantos números você vai digitar: ");
         int num = sc.nextInt();
         int[] numeros = new int[num];
@@ -18,19 +17,15 @@ public class E030 {
         }
 
         System.out.println("Números pares: ");
-
         for (int i = 0; i < num; i++) {
-            int[] pares = new int[numeros[i]];
-            if (numeros[i] % 2 == 0){
+            if (numeros[i] % 2 == 0) {
+                System.out.printf("%d ", numeros[i]);
                 cont++;
             }
-            System.out.println(pares[i]);
         }
 
-
+        System.out.println();
         System.out.printf("Quantidade de pares: %d", cont);
-
-
 
         sc.close();
     }

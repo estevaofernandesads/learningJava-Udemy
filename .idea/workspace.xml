@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5155475-00b0-4863-940d-a238b46460c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E021_E030/E030.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E021_E030/E030.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E031_E040/E031.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercises/E031_E040/E031.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "Application.E027.executor": "Run",
     "Application.E028.executor": "Run",
     "Application.E030.executor": "Run",
+    "Application.E031.executor": "Run",
     "Application.L011.executor": "Run",
     "Application.L012.executor": "Run",
     "Application.L013.executor": "Run",

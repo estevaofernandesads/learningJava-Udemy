@@ -7,25 +7,32 @@ public class E031 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe o tamanho do hotel: ");
-        int num = sc.nextInt();
+        int tamanho = sc.nextInt();
 
-        Rent[] vect = new Rent[num];
+        Rent[] vect = new Rent[tamanho];
 
         System.out.println("Quantos quartos estão alugados: ");
         int alugados = sc.nextInt();
 
-        for (int i = 1; i < alugados; i++) {
-            System.out.printf("Alugados #%d:  ", i);
+        for (int i = 1; i <= alugados; i++) {
+            System.out.printf("Alugados #%d:  %n", i);
             System.out.print("Name: ");
             sc.nextLine();
             String name = sc.nextLine();
+            System.out.print("Email: ");
             String email = sc.nextLine();
             System.out.print("Quarto: ");
             int quarto = sc.nextInt();
             vect[quarto] = new Rent(name, email);
         }
 
-
+        System.out.println();
+        System.out.println("Quartos ocupados: ");
+        for (int i = 0; i < tamanho; i++) {
+            if (vect[i] != null) {
+                System.out.printf("%d: %s%n", i, vect[i]);
+            }
+        }
 
         sc.close();
     }

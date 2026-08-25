@@ -6,13 +6,15 @@ public class E031 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Informe o tamanho do hotel: ");
+        System.out.print("Informe o tamanho do hotel: ");
         int tamanho = sc.nextInt();
 
         Rent[] vect = new Rent[tamanho];
 
-        System.out.println("Quantos quartos estão alugados: ");
+        System.out.print("Quantos quartos estão alugados: ");
         int alugados = sc.nextInt();
+
+        System.out.println();
 
         for (int i = 1; i <= alugados; i++) {
             System.out.printf("Alugados #%d:  %n", i);
@@ -24,9 +26,9 @@ public class E031 {
             System.out.print("Quarto: ");
             int quarto = sc.nextInt();
             vect[quarto] = new Rent(name, email);
+            System.out.println();
         }
 
-        System.out.println();
         System.out.println("Quartos ocupados: ");
         for (int i = 0; i < tamanho; i++) {
             if (vect[i] != null) {
